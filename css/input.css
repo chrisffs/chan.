@@ -32,9 +32,19 @@ html {
 }
 
 .hover-underline-animation.left::after {
-transform-origin: bottom right;
+    transform-origin: bottom right;
 }
 
 .hover-underline-animation.left:hover::after {
-transform-origin: bottom left;
+    transform-origin: bottom left;
 }
+
+.text {
+    /* font-size: 2rem; */
+    color: rgb(207, 207, 207); /* Initial color */
+    transition: color 0.3s ease; /* Fallback for unsupported browsers */
+}
+
+/* .show-up {
+    transform: translateY(100%); 
+} */
